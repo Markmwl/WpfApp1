@@ -1,0 +1,8 @@
+﻿<local:BaseWindow x:Class="WPFDemo.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:WPFDemo"
+        Title="MainWindow" Height="300" Width="300">
+    <DockPanel Background="Black" HorizontalAlignment="Left" Height="100" LastChildFill="False" Margin="88,133,0,0" VerticalAlignment="Top" Width="100"/>
+
+</local:BaseWindow>

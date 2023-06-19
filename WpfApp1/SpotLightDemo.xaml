@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.SpotLightDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:wpfdev="clr-namespace:WpfApp1.Controls"
+        mc:Ignorable="d"
+        Title="SpotLightDemo" Height="300" Width="300" Background="White">
+    <Grid Background="White">
+        <UniformGrid Rows="2" Background="White">
+            <wpfdev:SpotLight FontSize="50" Text="YanJinHua" 
+                          DefaultForeground="Crimson" 
+                          Foreground="Fuchsia" 
+                          Duration="00:00:05" Margin="0,0,0,66" />
+            <wpfdev:SpotLight Margin="0,52,0,0"/>
+        </UniformGrid>
+    </Grid>
+</Window>
